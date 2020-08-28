@@ -125,11 +125,11 @@ class STDistanceTest extends OrmTestCase
 
         $this->assertCount(3, $result);
         $this->assertEquals($entity1, $result[0][0]);
-        $this->assertEquals(1309106.31457703, $result[0][1]);
+        $this->assertEquals(1309106.31458423, $result[0][1]);
         $this->assertEquals($entity2, $result[1][0]);
-        $this->assertEquals(2689041.41286683, $result[1][1]);
+        $this->assertEquals(2689041.41288843, $result[1][1]);
         $this->assertEquals($entity3, $result[2][0]);
-        $this->assertEquals(1312731.61416563, $result[2][1]);
+        $this->assertEquals(1312731.61417061, $result[2][1]);
     }
 
     /**
